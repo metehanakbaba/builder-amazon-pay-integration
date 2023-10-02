@@ -57,7 +57,7 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
-    implementation("com.amazon:fortpayment:+:release@aar"){
+    implementation("com.amazon:fortpayment:0.2.1:release@aar"){
       transitive = true
     }
 }
