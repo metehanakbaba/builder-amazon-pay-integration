@@ -6,17 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		F4FF95D7245B92E800C19C63 /* RnAmazonPaymentServiceSdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* RnAmazonPaymentServiceSdk.swift */; };
-		FD4226602851F8A3007ADC00 /* StandardCheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42265F2851F8A3007ADC00 /* StandardCheckoutView.swift */; };
-		FD4226622851F9D3007ADC00 /* StandardCheckoutViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4226612851F9D3007ADC00 /* StandardCheckoutViewManager.swift */; };
-		FD4226642851FA25007ADC00 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4226632851FA25007ADC00 /* Utils.swift */; };
-		FD42266728532E33007ADC00 /* CustomCheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42266628532E33007ADC00 /* CustomCheckoutView.swift */; };
-		FD42266928532E4B007ADC00 /* CustomCheckoutViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42266828532E4B007ADC00 /* CustomCheckoutViewManager.swift */; };
-		FD42266C285738BC007ADC00 /* DirectPayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42266B285738BC007ADC00 /* DirectPayView.swift */; };
-		FD42266E285738D1007ADC00 /* DirectPayViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD42266D285738D1007ADC00 /* DirectPayViewManager.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -31,17 +20,25 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRnAmazonPaymentServiceSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRnAmazonPaymentServiceSdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D8F2032ACC79AE00EED042 /* StandardCheckoutViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandardCheckoutViewManager.m; sourceTree = "<group>"; };
+		85D8F2042ACC79AE00EED042 /* DirectPayViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectPayViewManager.h; sourceTree = "<group>"; };
+		85D8F2052ACC79AE00EED042 /* DirectPayViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectPayViewManager.m; sourceTree = "<group>"; };
+		85D8F2062ACC79AE00EED042 /* CustomCheckoutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCheckoutView.h; sourceTree = "<group>"; };
+		85D8F2072ACC79AE00EED042 /* StandartCheckoutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandartCheckoutView.h; sourceTree = "<group>"; };
+		85D8F2082ACC79AE00EED042 /* DirectPayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DirectPayView.h; sourceTree = "<group>"; };
+		85D8F2092ACC79AE00EED042 /* CustomCheckoutViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCheckoutViewManager.h; sourceTree = "<group>"; };
+		85D8F20A2ACC79AE00EED042 /* DirectPayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DirectPayView.m; sourceTree = "<group>"; };
+		85D8F20D2ACC79AE00EED042 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		85D8F20E2ACC79AE00EED042 /* StandartCheckoutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StandartCheckoutView.m; sourceTree = "<group>"; };
+		85D8F20F2ACC79AE00EED042 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		85D8F2102ACC79AE00EED042 /* CustomCheckoutViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCheckoutViewManager.m; sourceTree = "<group>"; };
+		85D8F2112ACC79AE00EED042 /* StandardCheckoutViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardCheckoutViewManager.h; sourceTree = "<group>"; };
+		85D8F2122ACC79AE00EED042 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		85D8F2142ACC79AE00EED042 /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		85D8F2152ACC79AE00EED042 /* CustomCheckoutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCheckoutView.m; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RnAmazonPaymentServiceSdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RnAmazonPaymentServiceSdk.m; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* RnAmazonPaymentServiceSdk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RnAmazonPaymentServiceSdk-Bridging-Header.h"; sourceTree = "<group>"; };
-		F4FF95D6245B92E800C19C63 /* RnAmazonPaymentServiceSdk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RnAmazonPaymentServiceSdk.swift; sourceTree = "<group>"; };
-		FD42265F2851F8A3007ADC00 /* StandardCheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardCheckoutView.swift; sourceTree = "<group>"; };
-		FD4226612851F9D3007ADC00 /* StandardCheckoutViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardCheckoutViewManager.swift; sourceTree = "<group>"; };
-		FD4226632851FA25007ADC00 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		FD422665285207F7007ADC00 /* RnAmazonPaymentServiceSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RnAmazonPaymentServiceSdk.h; sourceTree = "<group>"; };
-		FD42266628532E33007ADC00 /* CustomCheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCheckoutView.swift; sourceTree = "<group>"; };
-		FD42266828532E4B007ADC00 /* CustomCheckoutViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCheckoutViewManager.swift; sourceTree = "<group>"; };
-		FD42266B285738BC007ADC00 /* DirectPayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectPayView.swift; sourceTree = "<group>"; };
-		FD42266D285738D1007ADC00 /* DirectPayViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectPayViewManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,17 +63,25 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				FD42266D285738D1007ADC00 /* DirectPayViewManager.swift */,
-				FD42266B285738BC007ADC00 /* DirectPayView.swift */,
-				FD42266828532E4B007ADC00 /* CustomCheckoutViewManager.swift */,
-				FD42266628532E33007ADC00 /* CustomCheckoutView.swift */,
 				FD422665285207F7007ADC00 /* RnAmazonPaymentServiceSdk.h */,
-				FD4226632851FA25007ADC00 /* Utils.swift */,
-				FD4226612851F9D3007ADC00 /* StandardCheckoutViewManager.swift */,
-				FD42265F2851F8A3007ADC00 /* StandardCheckoutView.swift */,
-				F4FF95D6245B92E800C19C63 /* RnAmazonPaymentServiceSdk.swift */,
 				B3E7B5891CC2AC0600A0062D /* RnAmazonPaymentServiceSdk.m */,
 				F4FF95D5245B92E700C19C63 /* RnAmazonPaymentServiceSdk-Bridging-Header.h */,
+				85D8F2062ACC79AE00EED042 /* CustomCheckoutView.h */,
+				85D8F2152ACC79AE00EED042 /* CustomCheckoutView.m */,
+				85D8F2092ACC79AE00EED042 /* CustomCheckoutViewManager.h */,
+				85D8F2102ACC79AE00EED042 /* CustomCheckoutViewManager.m */,
+				85D8F2082ACC79AE00EED042 /* DirectPayView.h */,
+				85D8F20A2ACC79AE00EED042 /* DirectPayView.m */,
+				85D8F2042ACC79AE00EED042 /* DirectPayViewManager.h */,
+				85D8F2052ACC79AE00EED042 /* DirectPayViewManager.m */,
+				85D8F2112ACC79AE00EED042 /* StandardCheckoutViewManager.h */,
+				85D8F2032ACC79AE00EED042 /* StandardCheckoutViewManager.m */,
+				85D8F2072ACC79AE00EED042 /* StandartCheckoutView.h */,
+				85D8F20E2ACC79AE00EED042 /* StandartCheckoutView.m */,
+				85D8F20F2ACC79AE00EED042 /* UIColor+Hex.h */,
+				85D8F20D2ACC79AE00EED042 /* UIColor+Hex.m */,
+				85D8F2122ACC79AE00EED042 /* Utils.h */,
+				85D8F2142ACC79AE00EED042 /* Utils.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,14 +143,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD42266E285738D1007ADC00 /* DirectPayViewManager.swift in Sources */,
-				FD42266C285738BC007ADC00 /* DirectPayView.swift in Sources */,
-				F4FF95D7245B92E800C19C63 /* RnAmazonPaymentServiceSdk.swift in Sources */,
-				FD42266928532E4B007ADC00 /* CustomCheckoutViewManager.swift in Sources */,
-				FD4226622851F9D3007ADC00 /* StandardCheckoutViewManager.swift in Sources */,
-				FD42266728532E33007ADC00 /* CustomCheckoutView.swift in Sources */,
-				FD4226602851F8A3007ADC00 /* StandardCheckoutView.swift in Sources */,
-				FD4226642851FA25007ADC00 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
