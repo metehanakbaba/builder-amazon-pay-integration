@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "11.0" }
-  s.source       = { :git => "https://github.com/payfort/rn-amazonpaymentservices.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/metehanakbaba/rn-amazonpaymentservices.git", :tag => "main" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
 
