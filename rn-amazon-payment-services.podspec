@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "11.0" }
-  s.source       = { :git => "https://github.com/payfort/rn-amazonpaymentservices.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/metehanakbaba/rn-amazonpaymentservices.git"}
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
 
-  s.dependency "React-Core"
+  s.dependency "React"
   s.dependency "PayFortSDK"
 
 end
