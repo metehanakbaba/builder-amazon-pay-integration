@@ -37,7 +37,7 @@
     "android"
   ],
   "repository": "https://github.com/payfort/rn-amazonpaymentservices.git",
-  "author": "amazonpaymentservicesteam <pluginsaps@amazon.ae> (https://paymentservices.amazon.com/) & Metehan Akbaba",
+  "author": "amazonpaymentservicesteam <pluginsaps@amazon.ae> (https://paymentservices.amazon.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/payfort/rn-amazonpaymentservices.git/issues"
