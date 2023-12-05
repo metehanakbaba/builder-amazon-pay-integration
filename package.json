@@ -1,6 +1,6 @@
 {
   "name": "builder-amazon-pay-integration",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "Amazon Payment Services Sdk react native package",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
