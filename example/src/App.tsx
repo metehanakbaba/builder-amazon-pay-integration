@@ -16,7 +16,7 @@ import {
   StandardCheckout,
   DirectPayButton,
   FortRequestObjectDirectPay,
-} from 'rn-amazon-payment-services';
+} from 'builder-amazon-pay-integration';
 import getSDKToken from './services/getSDKToken';
 
 interface RequestBody {

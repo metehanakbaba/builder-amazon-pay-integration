@@ -1,6 +1,6 @@
 {
-  "name": "rn-amazon-payment-services-example",
-  "description": "Example app for rn-amazon-payment-services",
+  "name": "builder-amazon-pay-integration-example",
+  "description": "Example app for builder-amazon-pay-integration",
   "version": "0.0.1",
   "private": true,
   "scripts": {

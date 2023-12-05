@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "rn-amazon-payment-services": ["./src/index"]
+      "builder-amazon-pay-integration": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

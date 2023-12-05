@@ -1,5 +1,5 @@
 {
-  "name": "rn-amazon-payment-services",
+  "name": "builder-amazon-pay-integration",
   "version": "0.2.1",
   "description": "Amazon Payment Services Sdk react native package",
   "main": "lib/commonjs/index",
@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "rn-amazon-payment-services.podspec",
+    "builder-amazon-pay-integration.podspec",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build",
@@ -36,13 +36,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/payfort/rn-amazonpaymentservices.git",
+  "repository": "https://github.com/metehanakbaba/builder-amazon-pay-integration.git",
   "author": "amazonpaymentservicesteam <pluginsaps@amazon.ae> (https://paymentservices.amazon.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/payfort/rn-amazonpaymentservices.git/issues"
+    "url": "https://github.com/metehanakbaba/builder-amazon-pay-integration.git/issues"
   },
-  "homepage": "https://github.com/payfort/rn-amazonpaymentservices.git#readme",
+  "homepage": "https://github.com/metehanakbaba/builder-amazon-pay-integration.git#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

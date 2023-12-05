@@ -1,11 +1,11 @@
-# rn-amazon-payment-services
+# builder-amazon-pay-integration
 
 Amazon Payment Service Sdk react native package
 
 ## Installation
 
 ```sh
-npm install rn-amazon-payment-services
+npm install builder-amazon-pay-integration
 ```
 
 #### Android
@@ -60,7 +60,7 @@ import {
   getDeviceId,
   FortRequestObject,
   StandardCheckout,
-} from 'rn-amazon-payment-services';
+} from 'builder-amazon-pay-integration';
 
 // ...
 
@@ -146,7 +146,7 @@ export default function App() {
 ```js
 import {
   CustomCheckoutView,
-} from 'rn-amazon-payment-services';
+} from 'builder-amazon-pay-integration';
 
 
 // ...
@@ -186,7 +186,7 @@ import {
 import {
   DirectPayButton,
   FortRequestObjectDirectPay,
-} from 'rn-amazon-payment-services';
+} from 'builder-amazon-pay-integration';
 
 //...
 
