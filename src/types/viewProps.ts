@@ -4,7 +4,7 @@ import type { ViewStyle } from 'react-native';
 /**
  * Represents the properties for the PayButton component.
  */
-export interface payButtonProps {
+export interface payButtonPropTypes {
   /**
    * The left margin of the button.
    */
@@ -98,7 +98,7 @@ export interface customCheckoutViewProps {
   /**
    * The properties for the PayButton component.
    */
-  payButtonProps: payButtonProps;
+  payButtonProps: payButtonPropTypes;
 }
 
 /**
